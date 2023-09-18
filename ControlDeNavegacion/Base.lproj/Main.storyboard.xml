@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lhy-f4-F7N">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rosa-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ControlDeNavegacion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGS-ve-2dK">
+                                <rect key="frame" x="159" y="409" width="75" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                <connections>
+                                    <segue destination="s81-Mq-rSH" kind="show" id="8fy-QS-Wfg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.85487178905141792" blue="0.88602720827791126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="1" green="0.61565487569999999" blue="0.75514057000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="SGS-ve-2dK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mdn-ok-kmK"/>
+                            <constraint firstItem="SGS-ve-2dK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rc3-4Q-8q3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Rosa" id="uSi-6Y-1ha"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+        </scene>
+        <!--Morado-->
+        <scene sceneID="IXR-yg-1WX">
+            <objects>
+                <viewController id="s81-Mq-rSH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7FK-cY-RXj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPH-YD-feJ">
+                                <rect key="frame" x="159" y="409" width="75" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                <connections>
+                                    <segue destination="tz7-uo-49h" kind="show" id="nqB-WA-wEG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JAn-HY-IDU"/>
+                        <color key="backgroundColor" red="1" green="0.91512173197948288" blue="0.9607779503617192" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.71743338433936554" green="0.62233211606330074" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="JPH-YD-feJ" firstAttribute="centerX" secondItem="7FK-cY-RXj" secondAttribute="centerX" id="FBo-3L-Jyw"/>
+                            <constraint firstItem="JPH-YD-feJ" firstAttribute="centerY" secondItem="7FK-cY-RXj" secondAttribute="centerY" id="XFZ-L5-0Bq"/>
+                            <constraint firstItem="JPH-YD-feJ" firstAttribute="centerX" secondItem="7FK-cY-RXj" secondAttribute="centerX" id="kSy-Ap-mMA"/>
+                            <constraint firstItem="JPH-YD-feJ" firstAttribute="centerY" secondItem="7FK-cY-RXj" secondAttribute="centerY" id="ur5-oY-5wX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Morado" id="bRD-gr-Ujc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L6S-nY-lbR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1809.9236641221373" y="3.5211267605633805"/>
+        </scene>
+        <!--Naranja-->
+        <scene sceneID="8mG-RE-4Sb">
+            <objects>
+                <viewController id="tz7-uo-49h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l83-ZY-P7s">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79u-Kp-mP0">
+                                <rect key="frame" x="159" y="409" width="75" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                <connections>
+                                    <segue destination="EcP-uU-uQe" kind="unwind" unwindAction="regresarAPrincipalWithUnwindSegue:" id="Heg-aU-Ao2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RNz-K7-rM6"/>
+                        <color key="backgroundColor" red="1" green="0.87095508807282607" blue="0.84509478843555796" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="1" green="0.76718127071635422" blue="0.62771857854253543" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="79u-Kp-mP0" firstAttribute="centerY" secondItem="l83-ZY-P7s" secondAttribute="centerY" id="JZj-sM-Lex"/>
+                            <constraint firstItem="79u-Kp-mP0" firstAttribute="centerX" secondItem="l83-ZY-P7s" secondAttribute="centerX" id="N0l-D0-wWR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Naranja" id="Dem-VM-MZt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hDs-4X-K5g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="EcP-uU-uQe" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2612.9770992366412" y="-1.4084507042253522"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HfK-5V-dhe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lhy-f4-F7N" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CoI-HH-J2N">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Uaa-FV-MRC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G3K-xR-MrI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+</document>
